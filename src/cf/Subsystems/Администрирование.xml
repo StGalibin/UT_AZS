@@ -112,6 +112,7 @@
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>НастройкаРазделов</Subsystem>
 			<Subsystem>НастройкаИнтеграции</Subsystem>
+			<Subsystem>Топаз</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Настройки обмена с ПО "Топаз"</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<Customizable>false</Customizable>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаПутьФайловойБазы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папки обмена</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="ГруппаПутьФайловойБазыExtendedTooltip" id="8"/>
+			<ChildItems>
+				<InputField name="Топаз_ПутьКПапкеЗагрузки" id="13">
+					<DataPath>НаборКонстант.Топаз_ПутьКПапкеЗагрузки</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Путь к папке данных</v8:content>
+						</v8:item>
+					</Title>
+					<Width>50</Width>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="Топаз_ПутьКПапкеЗагрузкиКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="Топаз_ПутьКПапкеЗагрузкиРасширеннаяПодсказка" id="15"/>
+					<Events>
+						<Event name="StartChoice">ПутьКПапкеНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<InputField name="Топаз_ПутьКАрхивнойПапке" id="10">
+					<DataPath>НаборКонстант.Топаз_ПутьКАрхивнойПапке</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Путь к папке архивов</v8:content>
+						</v8:item>
+					</Title>
+					<Width>50</Width>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="Топаз_ПутьКАрхивнойПапкеКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="Топаз_ПутьКАрхивнойПапкеРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="StartChoice">ПутьКПапкеНачалоВыбора</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНастройки" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<CheckBoxField name="Топаз_ПроводитьДокументыПриЗагрузке" id="18">
+					<DataPath>НаборКонстант.Топаз_ПроводитьДокументыПриЗагрузке</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проводить документы при загрузке</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Right</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Топаз_ПроводитьДокументыПриЗагрузкеКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="Топаз_ПроводитьДокументыПриЗагрузкеРасширеннаяПодсказка" id="20"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Набор констант</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>НаборКонстант.ВариантПриемкиТоваров.Ref</Field>
+				<Field>НаборКонстант.ВидКонтроляТоваровОрганизаций.Ref</Field>
+				<Field>НаборКонстант.ДополнительнаяКолонкаПечатныхФормДокументов.Ref</Field>
+				<Field>НаборКонстант.ИспользованиеЗаданийТорговымПредставителям.Ref</Field>
+				<Field>НаборКонстант.ИспользованиеСоглашенийСКлиентами.Ref</Field>
+				<Field>НаборКонстант.ИспользованиеЭтаповОплатыВЗакупках.Ref</Field>
+				<Field>НаборКонстант.ИспользованиеЭтаповОплатыВПродажах.Ref</Field>
+				<Field>НаборКонстант.ОперацияПриЗакрытииКассовойСмены.Ref</Field>
+				<Field>НаборКонстант.ОтображениеСкидокВПечатныхФормахДокументовПродажи.Ref</Field>
+				<Field>НаборКонстант.ПериодABCКлассификацииНоменклатуры.Ref</Field>
+				<Field>НаборКонстант.ПериодABCКлассификацииПартнеров.Ref</Field>
+				<Field>НаборКонстант.ПериодXYZКлассификацииНоменклатуры.Ref</Field>
+				<Field>НаборКонстант.ПериодXYZКлассификацииПартнеров.Ref</Field>
+				<Field>НаборКонстант.ПериодРасчетаТоварныхОграничений.Ref</Field>
+				<Field>НаборКонстант.ПериодичностьВводаСезонныхКоэффициентов.Ref</Field>
+				<Field>НаборКонстант.ПериодичностьДляАнализаНоменклатурыПродаваемойСовместно.Ref</Field>
+				<Field>НаборКонстант.ПодпериодXYZКлассификацииНоменклатуры.Ref</Field>
+				<Field>НаборКонстант.ПодпериодXYZКлассификацииПартнеров.Ref</Field>
+				<Field>НаборКонстант.ПорядокОформленияВыкупаПриСписанииТоваров.Ref</Field>
+				<Field>НаборКонстант.ПорядокОформленияНакладныхРасходныхОрдеров.Ref</Field>
+				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
+				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
+				<Field>НаборКонстант.РежимФормированияРасходныхОрдеров.Ref</Field>
+				<Field>НаборКонстант.СтоимостьТоваровПриОценкеРентабельностиПродажи.Ref</Field>
+				<Field>НаборКонстант.УдалитьКонтекстАвторизации.Ref</Field>
+				<Field>НаборКонстант.УдалитьКонтекстКриптографии.Ref</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Разместить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разместить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разместить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Разместить</Action>
+		</Command>
+	</Commands>
+</Form>
