@@ -63,6 +63,7 @@
 				<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
+				<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
 				<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиДоходов</v8:Type>
 				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 				<v8:Type>cfg:CatalogRef.СегментыНоменклатуры</v8:Type>

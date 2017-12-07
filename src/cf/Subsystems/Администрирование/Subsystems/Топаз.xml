@@ -24,6 +24,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Топаз_Настройки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.Топаз_ВариантыОформленияТовародвижения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Топаз_ВидыОплат</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_КонтрагентОплатаБезЧека</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Топаз_НастройкиОбмена</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

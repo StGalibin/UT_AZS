@@ -75,9 +75,15 @@
 					<v8:content>Группа настройки</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>Vertical</Group>
 			<Representation>StrongSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="17"/>
 			<ChildItems>
+				<InputField name="Топаз_КонтрагентОплатаБезЧека" id="21">
+					<DataPath>НаборКонстант.Топаз_КонтрагентОплатаБезЧека</DataPath>
+					<ContextMenu name="Топаз_КонтрагентОплатаБезЧекаКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="Топаз_КонтрагентОплатаБезЧекаРасширеннаяПодсказка" id="23"/>
+				</InputField>
 				<CheckBoxField name="Топаз_ПроводитьДокументыПриЗагрузке" id="18">
 					<DataPath>НаборКонстант.Топаз_ПроводитьДокументыПриЗагрузке</DataPath>
 					<Title>
