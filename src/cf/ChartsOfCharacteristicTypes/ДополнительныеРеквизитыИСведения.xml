@@ -66,6 +66,7 @@
 				<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
 				<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиДоходов</v8:Type>
 				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+				<v8:Type>cfg:CatalogRef.ЭквайринговыеТерминалы</v8:Type>
 				<v8:Type>cfg:CatalogRef.СегментыНоменклатуры</v8:Type>
 				<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
 				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
