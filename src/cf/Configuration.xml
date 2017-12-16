@@ -4355,6 +4355,7 @@
 			<CommonCommand>ФормированиеЗаказовПоставщикам</CommonCommand>
 			<CommonCommand>ФормированиеЗаказовПоставщикуПоПлану</CommonCommand>
 			<CommonCommand>Топаз_Настройки</CommonCommand>
+			<CommonCommand>Топаз_ЗагрузитьДанные</CommonCommand>
 			<CommandGroup>Взаимодействия</CommandGroup>
 			<CommandGroup>Документооборот</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
@@ -4986,7 +4987,8 @@
 			<Constant>Топаз_ПутьКПапкеЗагрузки</Constant>
 			<Constant>Топаз_ПутьКАрхивнойПапке</Constant>
 			<Constant>Топаз_ПроводитьДокументыПриЗагрузке</Constant>
-			<Constant>Топаз_КонтрагентОплатаБезЧека</Constant>
+			<Constant>Топаз_ШаблонИмениЗагружаемыхФайлов</Constant>
+			<Constant>Топаз_СвойствоКод</Constant>
 			<CommonForm>АвтоматическийОбменСПодключаемымОборудованиемOffline</CommonForm>
 			<CommonForm>АвтономнаяРабота</CommonForm>
 			<CommonForm>АвтономнаяРаботаВМоделиСервиса</CommonForm>
@@ -5508,6 +5510,8 @@
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>Топаз_ВидыОплат</Catalog>
+			<Catalog>Топаз_ВидыОпераций</Catalog>
+			<Catalog>Топаз_ТопливныеКарты</Catalog>
 			<Document>АвансовыйОтчет</Document>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>АктОРасхожденияхПослеОтгрузки</Document>
@@ -7002,6 +7006,7 @@
 			<AccumulationRegister>ТоварыУПартнеров</AccumulationRegister>
 			<AccumulationRegister>УслугиКОформлениюОтчетовПринципалу</AccumulationRegister>
 			<AccumulationRegister>ФинансовыеРезультаты</AccumulationRegister>
+			<AccumulationRegister>Топаз_ПродажиПоТопливнымКартам</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>

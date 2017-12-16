@@ -24,8 +24,16 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Топаз_Настройки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.Топаз_ВариантыОформленияТовародвижения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Топаз_ВидыОплат</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_КонтрагентОплатаБезЧека</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f0733210-19f2-42e0-96ff-851ea345194e</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Топаз_НастройкиОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Топаз_ЗагрузкаДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_ШаблонИмениЗагружаемыхФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Топаз_ВидыОпераций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Топаз_ЗагрузитьДанные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_СвойствоКод</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Топаз_ТопливныеКарты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваровУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Топаз_ПродажиПоТопливнымКартам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -60,6 +60,11 @@
 						<Event name="StartChoice">ПутьКПапкеНачалоВыбора</Event>
 					</Events>
 				</InputField>
+				<InputField name="Топаз_ШаблонИмениЗагружаемыхФайлов" id="24">
+					<DataPath>НаборКонстант.Топаз_ШаблонИмениЗагружаемыхФайлов</DataPath>
+					<ContextMenu name="Топаз_ШаблонИмениЗагружаемыхФайловКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="Топаз_ШаблонИмениЗагружаемыхФайловРасширеннаяПодсказка" id="26"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаНастройки" id="16">
@@ -79,11 +84,6 @@
 			<Representation>StrongSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="17"/>
 			<ChildItems>
-				<InputField name="Топаз_КонтрагентОплатаБезЧека" id="21">
-					<DataPath>НаборКонстант.Топаз_КонтрагентОплатаБезЧека</DataPath>
-					<ContextMenu name="Топаз_КонтрагентОплатаБезЧекаКонтекстноеМеню" id="22"/>
-					<ExtendedTooltip name="Топаз_КонтрагентОплатаБезЧекаРасширеннаяПодсказка" id="23"/>
-				</InputField>
 				<CheckBoxField name="Топаз_ПроводитьДокументыПриЗагрузке" id="18">
 					<DataPath>НаборКонстант.Топаз_ПроводитьДокументыПриЗагрузке</DataPath>
 					<Title>
@@ -97,6 +97,11 @@
 					<ContextMenu name="Топаз_ПроводитьДокументыПриЗагрузкеКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="Топаз_ПроводитьДокументыПриЗагрузкеРасширеннаяПодсказка" id="20"/>
 				</CheckBoxField>
+				<InputField name="Топаз_СвойствоКод" id="27">
+					<DataPath>НаборКонстант.Топаз_СвойствоКод</DataPath>
+					<ContextMenu name="Топаз_СвойствоКодКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="Топаз_СвойствоКодРасширеннаяПодсказка" id="29"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>

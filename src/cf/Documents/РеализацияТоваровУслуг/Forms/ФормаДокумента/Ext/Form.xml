@@ -1994,6 +1994,12 @@
 										</InputField>
 									</ChildItems>
 								</ColumnGroup>
+								<InputField name="ТоварыТопаз_ТопливнаяКарта" id="1438">
+									<DataPath>Объект.Товары.ТопливнаяКарта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыТопаз_ТопливнаяКартаКонтекстноеМеню" id="1439"/>
+									<ExtendedTooltip name="ТоварыТопаз_ТопливнаяКартаРасширеннаяПодсказка" id="1440"/>
+								</InputField>
 								<InputField name="ТоварыКоличествоУпаковок" id="38">
 									<DataPath>Объект.Товары.КоличествоУпаковок</DataPath>
 									<Title>
