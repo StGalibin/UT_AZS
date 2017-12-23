@@ -3053,6 +3053,7 @@
 			<CommonModule>ЭтапыОплатыКлиентСервер</CommonModule>
 			<CommonModule>ЭтапыОплатыСервер</CommonModule>
 			<CommonModule>Топаз_ЗагрузкаДанных</CommonModule>
+			<CommonModule>Топаз_ОбработкаДанных</CommonModule>
 			<CommonAttribute>ОбластьДанныхВспомогательныеДанные</CommonAttribute>
 			<CommonAttribute>ОбластьДанныхОсновныеДанные</CommonAttribute>
 			<ExchangePlan>ИнтеграцияС1СДокументооборотом</ExchangePlan>
@@ -3491,6 +3492,7 @@
 			<EventSubscription>УстановитьСтатусИзмененияПометкиУдаленияДокумента</EventSubscription>
 			<EventSubscription>УстановитьСтатусИзмененияПометкиУдаленияОбъекта</EventSubscription>
 			<EventSubscription>УстановитьСтатусИзмененияПометкиУдаленияПользователя</EventSubscription>
+			<EventSubscription>Топаз_ПродажиПоТопливнымКартамОбработкаПроведения</EventSubscription>
 			<ScheduledJob>ABCКлассификацияНоменклатуры</ScheduledJob>
 			<ScheduledJob>ABCКлассификацияПартнеров</ScheduledJob>
 			<ScheduledJob>XYZКлассификацияНоменклатуры</ScheduledJob>
@@ -6378,6 +6380,7 @@
 			<Report>УсловияПродаж</Report>
 			<Report>ФинансовоеСостояние</Report>
 			<Report>ЭффективностьСделокСКлиентами</Report>
+			<Report>ПродажиПоТопливнымКартам</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>АрхивированиеУдалениеЧековККМ</DataProcessor>

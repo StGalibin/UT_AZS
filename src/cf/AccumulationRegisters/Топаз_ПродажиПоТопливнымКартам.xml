@@ -96,11 +96,11 @@
 			</Resource>
 			<Resource uuid="d57e7b3b-d78b-44c7-aff0-7753f1847d2e">
 				<Properties>
-					<Name>СуммаВыручки</Name>
+					<Name>Сумма</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма выручки с НДС</v8:content>
+							<v8:content>Сумма</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -115,12 +115,7 @@
 					<PasswordMode>false</PasswordMode>
 					<Format/>
 					<EditFormat/>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Выручка от продажи товаров с НДС в валюте управленческого учета</v8:content>
-						</v8:item>
-					</ToolTip>
+					<ToolTip/>
 					<MarkNegatives>false</MarkNegatives>
 					<Mask/>
 					<MultiLine>false</MultiLine>

@@ -88,11 +88,11 @@
 			</EnumValue>
 			<EnumValue uuid="ec5aa1df-cc8a-479e-824c-a960de445d20">
 				<Properties>
-					<Name>ПоступлениеТоваровУслуг</Name>
+					<Name>ПриобретениеТоваровУслуг</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Поступление товаров услуг</v8:content>
+							<v8:content>Приобретение товаров услуг</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -117,6 +117,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расходный кассовый ордер</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5a8b7dfa-d755-4a97-a5e4-f53f06ff0de7">
+				<Properties>
+					<Name>ВозвратТоваровПоставщику</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Возврат товаров поставщику</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
