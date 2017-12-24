@@ -18,7 +18,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_ПутьКПапкеЗагрузки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_ОсновнаяКасса</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_ПутьКАрхивнойПапке</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_ПроводитьДокументыПриЗагрузке</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Топаз_Настройки</xr:Item>
@@ -35,6 +35,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Топаз_ПродажиПоТопливнымКартам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Топаз_ОбработкаДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.Топаз_ПродажиПоТопливнымКартамОбработкаПроведения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_ПутьКПапкеЗагрузки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиПоТопливнымКартам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

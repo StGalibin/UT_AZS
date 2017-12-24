@@ -102,6 +102,11 @@
 					<ContextMenu name="Топаз_СвойствоКодКонтекстноеМеню" id="28"/>
 					<ExtendedTooltip name="Топаз_СвойствоКодРасширеннаяПодсказка" id="29"/>
 				</InputField>
+				<InputField name="Топаз_ОсновнаяКасса" id="30">
+					<DataPath>НаборКонстант.Топаз_ОсновнаяКасса</DataPath>
+					<ContextMenu name="Топаз_ОсновнаяКассаКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="Топаз_ОсновнаяКассаРасширеннаяПодсказка" id="32"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>

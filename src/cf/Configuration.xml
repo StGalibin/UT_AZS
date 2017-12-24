@@ -4986,11 +4986,12 @@
 			<Constant>ШаблонЭтикеткиДляДоставки</Constant>
 			<Constant>ШаблонЭтикеткиУпаковочногоЛиста</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
-			<Constant>Топаз_ПутьКПапкеЗагрузки</Constant>
+			<Constant>Топаз_ОсновнаяКасса</Constant>
 			<Constant>Топаз_ПутьКАрхивнойПапке</Constant>
 			<Constant>Топаз_ПроводитьДокументыПриЗагрузке</Constant>
 			<Constant>Топаз_ШаблонИмениЗагружаемыхФайлов</Constant>
 			<Constant>Топаз_СвойствоКод</Constant>
+			<Constant>Топаз_ПутьКПапкеЗагрузки</Constant>
 			<CommonForm>АвтоматическийОбменСПодключаемымОборудованиемOffline</CommonForm>
 			<CommonForm>АвтономнаяРабота</CommonForm>
 			<CommonForm>АвтономнаяРаботаВМоделиСервиса</CommonForm>
