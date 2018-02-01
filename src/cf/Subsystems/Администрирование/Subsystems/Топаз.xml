@@ -37,6 +37,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.Топаз_ПродажиПоТопливнымКартамОбработкаПроведения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_ПутьКПапкеЗагрузки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиПоТопливнымКартам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Топаз_АрхивироватьЗагруженныеФайлы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

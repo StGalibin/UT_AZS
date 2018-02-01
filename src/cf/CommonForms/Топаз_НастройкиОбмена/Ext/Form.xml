@@ -65,6 +65,18 @@
 					<ContextMenu name="Топаз_ШаблонИмениЗагружаемыхФайловКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="Топаз_ШаблонИмениЗагружаемыхФайловРасширеннаяПодсказка" id="26"/>
 				</InputField>
+				<CheckBoxField name="Топаз_АрхивироватьЗагруженныеФайлы" id="33">
+					<DataPath>НаборКонстант.Топаз_АрхивироватьЗагруженныеФайлы</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Архивировать загруженные файлы</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Топаз_АрхивироватьЗагруженныеФайлыКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="Топаз_АрхивироватьЗагруженныеФайлыРасширеннаяПодсказка" id="35"/>
+				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаНастройки" id="16">
