@@ -62,30 +62,6 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="25697dbc-d896-4fcd-924b-c6e3c6f93f2d">
-				<Properties>
-					<Name>СписаниеНедостачТоваров</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Списание недостач товаров</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="9267410a-6476-42f9-bce1-3d849613a86a">
-				<Properties>
-					<Name>ОприходованиеИзлишковТоваров</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Оприходование излишков товаров</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 			<EnumValue uuid="ec5aa1df-cc8a-479e-824c-a960de445d20">
 				<Properties>
 					<Name>ПриобретениеТоваровУслуг</Name>
@@ -129,6 +105,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Возврат товаров поставщику</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9ddffc5a-6da3-411f-ae18-60799890413d">
+				<Properties>
+					<Name>СкладскаяОперация</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Складская операция</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
