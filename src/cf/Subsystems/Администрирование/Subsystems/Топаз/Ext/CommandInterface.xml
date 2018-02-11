@@ -36,7 +36,17 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Constant.Топаз_ОсновнаяОрганизация.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.Топаз_ПутьКПапкеЗагрузки.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.Топаз_ОперацииПоНесколькимОрганизациям.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -67,7 +77,7 @@
 		<Command name="Catalog.Топаз_ВидыОпераций.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog.Топаз_ВидыОплат.StandardCommand.OpenList">
+		<Command name="Catalog.Топаз_ОформлениеОпераций.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="CommonCommand.Топаз_Настройки">
