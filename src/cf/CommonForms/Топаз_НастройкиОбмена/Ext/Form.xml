@@ -93,26 +93,45 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
-			<Representation>StrongSeparation</Representation>
+			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="17"/>
 			<ChildItems>
-				<CheckBoxField name="Топаз_ПроводитьДокументыПриЗагрузке" id="18">
-					<DataPath>НаборКонстант.Топаз_ПроводитьДокументыПриЗагрузке</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Проводить документы при загрузке</v8:content>
-						</v8:item>
-					</Title>
-					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="Топаз_ПроводитьДокументыПриЗагрузкеКонтекстноеМеню" id="19"/>
-					<ExtendedTooltip name="Топаз_ПроводитьДокументыПриЗагрузкеРасширеннаяПодсказка" id="20"/>
-				</CheckBoxField>
+				<UsualGroup name="Группа1" id="42">
+					<Representation>StrongSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<CheckBoxField name="Топаз_ПроводитьДокументыПриЗагрузке" id="18">
+							<DataPath>НаборКонстант.Топаз_ПроводитьДокументыПриЗагрузке</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проводить документы при загрузке</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="Топаз_ПроводитьДокументыПриЗагрузкеКонтекстноеМеню" id="19"/>
+							<ExtendedTooltip name="Топаз_ПроводитьДокументыПриЗагрузкеРасширеннаяПодсказка" id="20"/>
+						</CheckBoxField>
+						<CheckBoxField name="Топаз_ОперацииПоНесколькимОрганизациям" id="39">
+							<DataPath>НаборКонстант.Топаз_ОперацииПоНесколькимОрганизациям</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="Топаз_ОперацииПоНесколькимОрганизациямКонтекстноеМеню" id="40"/>
+							<ExtendedTooltip name="Топаз_ОперацииПоНесколькимОрганизациямРасширеннаяПодсказка" id="41"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
 				<InputField name="Топаз_СвойствоКод" id="27">
 					<DataPath>НаборКонстант.Топаз_СвойствоКод</DataPath>
 					<ContextMenu name="Топаз_СвойствоКодКонтекстноеМеню" id="28"/>
 					<ExtendedTooltip name="Топаз_СвойствоКодРасширеннаяПодсказка" id="29"/>
+				</InputField>
+				<InputField name="Топаз_ОсновнаяОрганизация" id="36">
+					<DataPath>НаборКонстант.Топаз_ОсновнаяОрганизация</DataPath>
+					<ContextMenu name="Топаз_ОсновнаяОрганизацияКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="Топаз_ОсновнаяОрганизацияРасширеннаяПодсказка" id="38"/>
 				</InputField>
 				<InputField name="Топаз_ОсновнаяКасса" id="30">
 					<DataPath>НаборКонстант.Топаз_ОсновнаяКасса</DataPath>
